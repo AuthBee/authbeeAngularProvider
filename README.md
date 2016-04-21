@@ -6,14 +6,14 @@ Add a `<script>` to your `index.html`:
 <script src="/node_modules/angular/angular.js"></script>
 ```
 
-Add authbee to You angular app
+Add authbee to your angular app
 ```javascript
 .module('authbeeSeedApp', ['ngAuthbee'])
 ```
 
 ## Configuration
 
-In Your app.js file use 
+In your app.js file use 
 ```javascript
 .config(function (authbeeProvider) {
 	authbeeProvider.init({
